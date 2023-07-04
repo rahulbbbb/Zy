@@ -1,0 +1,55 @@
+
+.mainContainer{
+   height: 80vh;
+}
+
+.homeContainer{
+    background-image: url("https://www.healthkart.com/connect/wp-content/uploads/2021/07/Banner-2021-07-25T214221.650.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.homeText{
+    height: auto;
+    width: auto;
+    width: 45%;
+    margin: 7rem;
+    margin-right: 2rem;
+    margin-top: 80px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.homeText h1{
+    font-size: 2.5rem;
+    color: white;
+
+}
+
+@media screen and (max-width: 1024px){
+    .homeText{
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+
+
+ 
+  
+  @keyframes wordAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(30%);
+    }
+    100% {
+      opacity: 0.9;
+      transform: translateY(0);
+    }
+  }
+ 
+
