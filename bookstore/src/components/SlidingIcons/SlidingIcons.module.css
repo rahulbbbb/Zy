@@ -1,0 +1,41 @@
+.container3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-top:2px solid lightgray ;
+    border-bottom:2px solid lightgray ;
+ 
+
+}
+
+.item{
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+.item:hover{
+    cursor: pointer;
+    animation-name: items ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes items{
+      0% {
+    transform: scale(1) ;
+  }
+  50% {
+    transform: scale(1.2) ;
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+
+
+
+

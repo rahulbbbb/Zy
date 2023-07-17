@@ -1,0 +1,65 @@
+ .booklist-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; 
+  }
+  
+
+  .booklist-content .book {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+ 
+  .booklist-content .book img {
+    width: 100%;
+    height: 40px;
+    padding-bottom: 150%; 
+    object-fit: cover;
+  }
+
+
+.book-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 220px;
+  }
+  
+  .book-item-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+ 
+  
+  .book-item-info a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .title {
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
+  .author,
+  .edition-count,
+  .publish-year {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .text-capitalize {
+    text-transform: capitalize;
+  }
+  
+
+  

@@ -1,0 +1,44 @@
+.imageContainer {
+    position: relative;
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    height: auto; 
+    overflow: hidden;
+  }
+  
+  .imageSlider {
+    display: flex;
+    width: 500%; 
+    transition: transform 0.5s ease;
+  }
+  
+  .image {
+    width: 20%; 
+    height: 100%;
+  
+  }
+  
+  .pagination {
+    text-align: center;
+   
+   
+  }
+  
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 0 5px;
+    cursor: pointer;
+    position:relative;
+    bottom: 100%;
+    
+  }
+  
+  .activeDot {
+    background-color: black;
+  }
+  
